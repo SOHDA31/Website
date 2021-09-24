@@ -72,6 +72,8 @@ hr{
 .nav-brand{
     font-weight: bold;
     font-size: 1.3rem;
+    display: inline;
+    padding-left: 3rem;
 }
 
 .navigation .link{
@@ -80,6 +82,8 @@ hr{
 
 .nav-pills{
     text-align: right;
+    display: inline;
+    padding: 0rem 0rem 0rem 45rem;
 }
 
 .navigation .link-active{
