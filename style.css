@@ -66,6 +66,7 @@ hr{
     color: white;
     padding: 1rem;
     font-weight: lighter;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
 }
 
 .nav-brand{
