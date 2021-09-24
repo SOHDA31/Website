@@ -5,10 +5,12 @@
     --primary-color: #FE7624;
     --dark-gray: #718096;
     --off-white: #EDF2F7;
+    --deep-orange: #C05621;
 }
 body {
     font-family: 'Poppins',
     sans-serif;
+    margin: 0px;
 }
 
 /* container */
@@ -27,6 +29,7 @@ padding: 1rem 1rem;
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
+
 }
 
 .link-primary{
@@ -54,7 +57,7 @@ hr{
 
 .list-item-inline{
     display: inline;
-    padding: 0.5rem 3rem;  
+    padding: 0.5rem 1rem;  
 }
 
 /* Navigation */
@@ -119,7 +122,23 @@ hr{
     background-color: var(--off-white);
 }
 
+/* Footer */
 
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+    text-align: center;
+    
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
 
 
 
